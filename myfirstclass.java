@@ -4,5 +4,10 @@ public class MyFirstClass {
 	
 	    private Integer name ;
 	    private String salary;
+
+	    MyFirstClass myFirstClass = new MyFirstClass();
+	    myFirstClass.higher(); 
 }	
+
+public void higher() { };
 }
